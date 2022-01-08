@@ -18,8 +18,8 @@
 
 <div id="top"></div>
 
-<p style='font-size:32px; font-weight:bold'>Parallel &amp; Distributed Computing </p>
-  <h3 align="center">HPC Cluster Configuration</h3>
+<p style='font-size:35px; font-weight:bold'>Parallel &amp; Distributed Computing </p>
+  <h3 align="center" style='font-size:35px; font-weight:bold'>Ansible</h3>
 
   <p align="center">
     This documentation will help you create a hpcc system on vmware.
