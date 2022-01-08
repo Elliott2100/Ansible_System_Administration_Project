@@ -22,7 +22,7 @@
   <h3 align="center" style='font-size:35px; font-weight:bold'>Ansible</h3>
 
   <p align="center">
-    This documentation will help you create a hpcc system on vmware.
+    This documentation will help you use Ansible on vmware.
     <br />
     <a href="https://github.com/Elliott2100/Ansible_System_Administration_Project"><strong>Explore the docs »</strong></a>
     <br />
