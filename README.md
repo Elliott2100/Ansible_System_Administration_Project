@@ -109,7 +109,7 @@ Table of contents
 
   -  [5.12 Client side GET request successful for the movie list](#512-client-side-get-request-successful-for-the-movie-list]) 
 
-[6. References](#6-References) 
+[**6. References**](#6-References) 
 
 # **1. Product Information**
 
