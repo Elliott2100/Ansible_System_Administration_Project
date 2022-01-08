@@ -191,7 +191,7 @@ The Protocols most used in Ansible is the SSH protocol. It can be extended to su
 
 ###
 
-### ![Master Node Configuration](./Pictures/masternodeconfiguarion.png)
+### ![Master Node Configuration](./Pictures/masternodeconfiguarion.PNG)
 
 ### 4.1.1. Now installing the Ansible on the Master node
 
