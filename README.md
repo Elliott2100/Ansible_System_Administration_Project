@@ -67,47 +67,47 @@ Table of contents
 
 [**3. Architecture**](#3-architecture) 
 
-   - [**3.1. Application Communication**](#3.1-application-communication) 
+   - [**3.1. Application Communication**](#31-application-communication) 
 
-   - [**3.2. Back-End Architecture**](#3.2-back-end-architecture) 
+   - [**3.2. Back-End Architecture**](#32Back-End-Architecture) 
 
-  -[**3.3. Protocols And Uses**](#3.3-protocols-and-uses) 
+   - [**3.3. Protocols And Uses**](#33-protocols-and-uses) 
 
-[**4. Installation and configuration Snapshots**](#installation-and-configuration-snapshots) 
+[**4. Installation and configuration Snapshots**](#4installation-and-configuration-snapshots) 
 
-   - [4.1.Master Node Configuration](#4.1.Master-Node-Configuration) 
+   - [4.1.Master Node Configuration](#41master-node-configuration) 
 
-   - [4.1.1. Now installing the Ansible on the Master node](#4.1.1-now-installing-the-ansible-on-the-master-node) 
+   - [4.1.1. Now installing the Ansible on the Master node](#411-now-installing-the-ansible-on-the-master-node) 
 
-   - [4.2. Node 1 Configuration](#4.2-node-1) 
+   - [4.2. Node 1 Configuration](#42-node-1-configuration) 
 
-   - [4.3-node-2-configuration](#_m5jqfk7osvyb) 
+   - [4.3. Node 2 Configuration](#43-Node-2-Configuration) 
 
 [**5. Implementation**](#5-implementation) 
 
-  -  [5.1 Ping The Nodes](#5.1-ping-the-nodes) 
+  -  [5.1 Ping The Nodes](#51-ping-the-nodes) 
 
-  -  [5.2 Playbook For Deploying Client On Node2](#5.2-playbook-for-deploying-client-on-node2) 
+  -  [5.2 Playbook For Deploying Client On Node2](#52-playbook-for-deploying-client-on-node2) 
 
-  -  [5.3 Playbook For Deploying Server On Node1](#5.3-playbook-for-deploying-server-on-node1) 
+  -  [5.3 Playbook For Deploying Server On Node1](#53-playbook-for-deploying-server-on-node1) 
 
-  -  [5.4 Running ansible playbook for deploying server on Node1](#5.4-running-ansible-playbook-for-deploying-server-on-node1) 
+  -  [5.4 Running ansible playbook for deploying server on Node1](#54-running-ansible-playbook-for-deploying-server-on-node1) 
 
-  -  [5.5 Running ansible playbook for deploying client on Node2](#5.5-running-ansible-playbook-for-deploying-client-on-Node2) 
+  -  [5.5 Running ansible playbook for deploying client on Node2](#55-running-ansible-playbook-for-deploying-client-on-Node2) 
 
-  -  [5.6 Node 1 is nodejsfileserver directory is created](#5.6-node-1-is-nodejsfileserver-directory-is-created) 
+  -  [5.6 Node 1 is nodejsfileserver directory is created](#56-node-1-is-nodejsfileserver-directory-is-created) 
 
-  -  [5.7 Node 2 is nodejsfileclient directory is created](#5.7-node-2-is-nodejsfileclient-directory-is-created) 
+  -  [5.7 Node 2 is nodejsfileclient directory is created](#57-node-2-is-nodejsfileclient-directory-is-created) 
 
-  -  [5.8 Scalaplex is running on 192.168.107.134 on 3000 port](#5.8-scalaplex-is-running-on-192.168.107.134-on-3000-port) 
+  -  [5.8 Scalaplex is running on 192.168.107.134 on 3000 port](#58-scalaplex-is-running-on-192.168.107.134-on-3000-port) 
 
-  -  [5.9 Entering Credentials for Testing Purposes](#5.9-entering-credentials-for-testing-purposes) 
+  -  [5.9 Entering Credentials for Testing Purposes](#59-entering-credentials-for-testing-purposes) 
 
-  -  [5.10 Server POST request is successful on port 5000](#5.10-server-POST-request-is-successful-on-port-5000) 
+  -  [5.10 Server POST request is successful on port 5000](#510-server-POST-request-is-successful-on-port-5000) 
 
-  -  [5.11 Client Side GET request for Admin portal](#5.11-client-side-get-request-for-admin-portal) 
+  -  [5.11 Client Side GET request for Admin portal](#511-client-side-get-request-for-admin-portal) 
 
-  -  [5.12 Client side GET request successful for the movie list](#5.12-client-side-get-request-successful-for-the-movie-list]) 
+  -  [5.12 Client side GET request successful for the movie list](#512-client-side-get-request-successful-for-the-movie-list]) 
 
 [6. References](#6-References) 
 
@@ -143,7 +143,7 @@ So, Ansible is a must if we are working in DevOps, IT Automation, and Cloud Infr
 
 # **3. Architecture**
 
-![]()
+![Architecture]()
 
 - **Inventory**
 
@@ -157,7 +157,7 @@ Playbooks are files written in YAML. Playbooks depict the task to be finished ba
 
 Modules are script-like programs written to determine the ideal condition of the framework. These are written in a code editor. Modules are composed by the system administrator and executed through SSH. Ansible module is an independent script that can be utilized inside an Ansible Playbook.
 
-## **3.1.  Application Communication**
+## **3.1. Application Communication**
 
 Ansible communicates with remote machines over the SSH protocol. By default,
 
@@ -165,7 +165,7 @@ it uses native OpenSSH and connects to remote machines using the current user na
 
 ## **3.2 Back-End Architecture**
 
-![Architecture]()
+![BackEndArchitecture]()
 
 ##
 
@@ -179,7 +179,7 @@ The Protocols most used in Ansible is the SSH protocol. It can be extended to su
 
 ## **4.1.Master Node Configuration**
 
-![Master Node Configuration]()
+![Master Node Configuration](./Pictures/Masternodenameandversion.PNG)
 
 ###
 
@@ -191,7 +191,7 @@ The Protocols most used in Ansible is the SSH protocol. It can be extended to su
 
 ###
 
-### ![](RackMultipart20220108-4-1tq1kri_html_b855e37759d39343.png)
+### ![Master Node Configuration](./Pictures/masternodeconfiguarion.png)
 
 ### 4.1.1. Now installing the Ansible on the Master node
 
@@ -199,25 +199,25 @@ The Protocols most used in Ansible is the SSH protocol. It can be extended to su
 
 **#** It allows you to easily manage your distribution and independent software vendor software sources
 
-![Update Your Master Node]()
+![Update Your Master Node](./Pictures/apt-getupdatepicture.PNG)
 
-![Update Your Master Node]()
+![Update Your Master Node](./Pictures/picofaptgetinstallsoftwarepropertiescom.PNG)
 
 - **Step 2: Install EPEL Repository**
 
 **#** This allows for easy access to installed packages for commonly used software packages.
 
-![Install EPEL Repository]()
+![Install EPEL Repository](./Pictures/aptaddrepositoryforansible.PNG)
 
 - **Step 3: Install Ansible**
 
 **$** sudo apt-get update
 
-![Install Ansible]()
+![apt-get update](./Pictures/updateaptpicture.PNG)
 
 **$** sudo apt-get install ansible -y
 
-![Install Ansible]()
+![Install Ansible](./Pictures/aptinstallansiblepic2.PNG)
 
 - **Step 4: Configure Our Node 1 &amp; 2 User for SSH Access**
 
@@ -225,39 +225,38 @@ The Protocols most used in Ansible is the SSH protocol. It can be extended to su
 
 **$** sudo apt update
 
-![Configure Our Node 1 & 2 User for SSH Access]()
+![sudo apt update](./Pictures/sudoaptupdatepicturenode1.PNG)
 
 **$** sudo apt install openssh-server
 
-![Configure Our Node 1 & 2 User for SSH Access]()
+![sudo apt install openssh-server](./Pictures/getopensshnode1.PNG)
 
 **#** after installation the SSH service will automatically, to verify it we use:
 
 **$** sudo systemctl status ssh
 
-![Configure Our Node 1 & 2 User for SSH Access]()
+![sudo systemctl status ssh](./Pictures/sshcheckinginnode1.PNG)
 
 **#** The result should be **Active: active (running)**
 
 - **Step 5: Create an Inventory**
 
-**Ansible hosts file**![Create an Inventory]()
+**Ansible hosts file**
+![Create an Inventory](./Pictures/hostorinventoryfileofansible.PNG)
 
-##
 
-##
 
 ## **4.2. Node 1 Configuration**
 
-![4.2. Node 1 Configuration]()
+![Node 1 Configuration](./Pictures/virtualmachinenamenode1.PNG)
 
-![4.2. Node 1 Configuration]()
+![Node 1 Configuration](./Pictures/node1configuartioninvm.PNG)
 
 ## **4.3. Node 2 Configuration**
 
-![4.3. Node 2 Configuration]()
+![Node 2 Configuration](./Pictures/node2nameandversion4.PNG)
 
-## ![4.3. Node 2 Configuration]()
+![Node 2 Configuration](./Pictures/Node2configurationsonvm.PNG)
 
 ##
 
@@ -273,43 +272,43 @@ We did this to create a Three Tier Architecture where the client is hosted on No
 
 ## **5.1 Ping The Nodes**
 
-![5.1 Ping The Nodes]()
+![5.1 Ping The Nodes](./Pictures/pingprocessinansible.PNG)
 
 ## **5.2 Playbook For Deploying Client On Node2**
 
-![5.2 Playbook For Deploying Client On Node2]()
+![5.2 Playbook For Deploying Client On Node2](./Pictures/deployclientonnode2yamlfile.PNG)
 
 ## **5.3 Playbook For Deploying Server On Node1**
 
-![5.3 Playbook For Deploying Server On Node1]()
+![5.3 Playbook For Deploying Server On Node1](./Pictures/deployserveronnode1yamlfile.PNG)
 
 ## **5.4 Running ansible playbook for deploying server on Node1**
 
-![5.4 Running ansible playbook for deploying server on Node1]()
+![5.4 Running ansible playbook for deploying server on Node1](./Pictures/ansiblerunningserverdeploymentonnode1.PNG)
 
 ##
 
 ## **5.5 Running ansible playbook for deploying client on Node2**
 
-![5.5 Running ansible playbook for deploying client on Node2]()
+![5.5 Running ansible playbook for deploying client on Node2](./Pictures/ansiblerunningclientdeploymentonnode2.PNG)
 
 ## **5.6 Node 1 is nodejsfileserver directory is created**
 
-![5.6 Node 1 is nodejsfileserver directory is created]()
+![5.6 Node 1 is nodejsfileserver directory is created](./Pictures/lsonnode1.PNG)
 
 ## **5.7 Node 2 is nodejsfileclient directory is created**
 
-![5.7 Node 2 is nodejsfileclient directory is created]()
+![5.7 Node 2 is nodejsfileclient directory is created](./Pictures/node2filewherenodeisinstalled.PNG)
 
 ## **5.8 Scalaplex is running on 192.168.107.134 on 3000 port**
 
-![5.8 Scalaplex is running on 192.168.107.134 on 3000 port]()
+![5.8 Scalaplex is running on 192.168.107.134 on 3000 port](./Pictures/servicerunningonport3000.PNG)
 
 ##
 
 ## **5.9 Entering Credentials for Testing Purposes**
 
-![5.9 Entering Credentials for Testing Purposes]()
+![5.9 Entering Credentials for Testing Purposes](./Pictures/adminisalsologgedintsystemsuccessfully.PNG)
 
 ##
 
@@ -317,19 +316,19 @@ We did this to create a Three Tier Architecture where the client is hosted on No
 
 ## **5.10 Server POST request is successful on port 5000**
 
-![5.10 Server POST request is successful on port 5000]()
+![5.10 Server POST request is successful on port 5000](./Pictures/successfulresponsefromport5000.PNG)
 
-![5.10 Server POST request is successful on port 5000]()
+![5.10 Server POST request is successful on port 5000](./Pictures/networklog2.PNG)
 
-![5.10 Server POST request is successful on port 5000]()
+![5.10 Server POST request is successful on port 5000](./Pictures/requestsuccesfullformovielist.PNG)
 
 ## **5.11 Client Side GET request for Admin portal**
 
-![5.11 Client Side GET request for Admin portal]()
+![5.11 Client Side GET request for Admin portal](./Pictures/getcustomers.PNG)
 
 ## **5.12 Client side GET request successful for the movie list**
 
-![5.12 Client side GET request successful for the movie list]()
+![5.12 Client side GET request successful for the movie list](./Pictures/getlistofmovies.PNG)
 
 ## **6. References**
 
