@@ -242,6 +242,8 @@ The Protocols most used in Ansible is the SSH protocol. It can be extended to su
 - **Step 5: Create an Inventory**
 
 **Ansible hosts file**
+
+
 ![Create an Inventory](./Pictures/hostorinventoryfileofansible.PNG)
 
 
