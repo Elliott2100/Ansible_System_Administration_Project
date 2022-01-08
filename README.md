@@ -18,7 +18,7 @@
 
 <div id="top"></div>
 
-<p style='font-size:35px; font-weight:bold'>System &amp; Administration </p>
+<p style='font-size:35px; font-weight:bold'> System Administration </p>
   <h3 align="center" style='font-size:35px; font-weight:bold'>Ansible</h3>
 
   <p align="center">
