@@ -143,7 +143,7 @@ So, Ansible is a must if we are working in DevOps, IT Automation, and Cloud Infr
 
 # **3. Architecture**
 
-![Architecture](./Pictures/Architecture.PNG)
+![Architecture](./Pictures/Architecture.png)
 
 - **Inventory**
 
@@ -165,7 +165,7 @@ it uses native OpenSSH and connects to remote machines using the current user na
 
 ## **3.2 Back-End Architecture**
 
-![BackEndArchitecture](./Pictures/Backendarchitecture.PNG)
+![BackEndArchitecture](./Pictures/Backendarchitecture.png)
 
 ##
 
@@ -270,7 +270,7 @@ We have made Node1 the Server Node and Node2 the Client Node. We installed all d
 
 We did this to create a Three Tier Architecture where the client is hosted on Node1 and the server is hosted on Node2, after the playbook is executed the client is deployed on Node 2 and the server is deployed on Node 1. The client communicates with the server through port 5000 where the backend services are active and running on Node1 and client is sending GET and POST requests on the port to access the services, a REST API is established. This service is also accessible through the ip address of the server machine .This all set through the ansible hosts file which can be found on the masternde within the /etc/ansible directory.
 
-![5. Implementation](./Pictures/implementation.PNG)
+![5. Implementation](./Pictures/implementation.png)
 
 ## **5.1 Ping The Nodes**
 
