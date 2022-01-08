@@ -18,7 +18,7 @@
 
 <div id="top"></div>
 
-<p style='font-size:35px; font-weight:bold'>Parallel &amp; Distributed Computing </p>
+<p style='font-size:35px; font-weight:bold'>System &amp; Administration </p>
   <h3 align="center" style='font-size:35px; font-weight:bold'>Ansible</h3>
 
   <p align="center">
@@ -67,11 +67,11 @@ Table of contents
 
 [**3. Architecture**](#3-architecture) 
 
-   - [**3.1. Application Communication**](#31-application-communication) 
+   - [3.1. Application Communication](#31-application-communication) 
 
-   - [**3.2. Back-End Architecture**](#32Back-End-Architecture) 
+   - [3.2. Back-End Architecture](#32Back-End-Architecture) 
 
-   - [**3.3. Protocols And Uses**](#33-protocols-and-uses) 
+   - [3.3. Protocols And Uses](#33-protocols-and-uses) 
 
 [**4. Installation and configuration Snapshots**](#4installation-and-configuration-snapshots) 
 
