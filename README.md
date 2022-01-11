@@ -13,13 +13,16 @@
 <br />
 
   <a href="https://github.com/SyedMustafaImam/HPCC-On-VMware-">
-    <img src="Pictures/AnsibleLogo.png" alt="Logo" >
+    <img style='width:50%; height:50%' src="Pictures/AnsibleLogo.png" alt="Logo" >
   </a>
 
+  <br />
+<br />
+  <br />
+<br />
 <div id="top"></div>
 
-<p style='font-size:35px; font-weight:bold'> System Administration </p>
-  <h3 align="center" style='font-size:35px; font-weight:bold'>Ansible</h3>
+<p style='font-size:35px; font-weight:bold'> System Administration Final Project </p>
 
   <p align="center">
     This documentation will help you use Ansible on vmware.
